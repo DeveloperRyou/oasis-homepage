@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Collapse, Image } from "react-bootstrap";
+import arrow from '../../images/arrow.png';
 
 function FAQ(props) {
   const faq = props.data;
@@ -47,7 +48,7 @@ function FAQ(props) {
                   <div className="d-flex flex-column justify-content-center">
                     <p className="fs-5 fw-normal text-white mb-0">{content.title}</p>
                   </div>
-                  <Image fluid className="p-2" src="/arrow-down.png" />
+                  <Image fluid className="p-2" src={arrow} />
                 </div>
                 <Collapse in={contentID[content.id]}>
                   <div id={content.id} className={"content"} >

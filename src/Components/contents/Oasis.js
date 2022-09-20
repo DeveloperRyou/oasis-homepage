@@ -1,9 +1,9 @@
 import ContentImage from "./ContentImage";
-
+import oasis from "../../images/Oasis.png"
 function Oasis() {
   return (
     <div className="oasis">
-      <ContentImage src='/Oasis.png' >
+      <ContentImage src={oasis} >
         <div className="display-6 text-white">
           <p className="fw-normal"><span className="text-blue-200 fw-bold">OASIS</span> 안에서</p>
           <p className="fw-normal">최고의 수익을 찾아보세요</p>

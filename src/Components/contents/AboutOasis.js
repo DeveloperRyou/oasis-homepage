@@ -1,8 +1,9 @@
 import ContentImage from "./ContentImage";
+import About1 from '../../images/About1.png';
 
 function AboutOasis() {
 	return (
-		<ContentImage src='/About1.png' className="mb-5">
+		<ContentImage src={About1} className="mb-5">
       <div>
         <p className="fs-1 fw-medium text-blue-200 mb-0">About the OASIS</p>
         <p className="fs-3 text-white">오아시스에 대하여</p>

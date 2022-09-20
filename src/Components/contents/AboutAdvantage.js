@@ -1,8 +1,9 @@
 import ContentImage from "./ContentImage";
+import Advantage from '../../images/Advantage.png';
 
 function AboutAdvantage() {
 	return (
-		<ContentImage src='/Advantage.png' className="mt-5">
+		<ContentImage src={Advantage} className="mt-5">
       <div>
         <p className="fs-1 text-blue-200 fw-medium mb-0">Advatages of OASIS BOT?</p>
         <p className="fs-3 text-white">OASIS BOT의 장점이란?</p>

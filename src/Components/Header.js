@@ -4,6 +4,7 @@ import { Container, Image } from 'react-bootstrap';
 import React, { useEffect, useState } from 'react';
 import Navsocial from './Navsocial';
 import { Fade } from "react-awesome-reveal";
+import title from '../images/title.png'
 
 function Header() {
   const contents = [
@@ -35,7 +36,7 @@ function Header() {
       <Container className='h-100 px-0'>
         <Fade triggerOnce direction='down' duration={1500}>
           <LinkScroll spy to={"app"} className="nav-brand nav-link h-100">
-            <Image fluid src='/title.png'></Image>
+            <Image fluid src={title}></Image>
           </LinkScroll>
         </Fade>
         <Navbar.Toggle aria-controls="navbar-collapse" />

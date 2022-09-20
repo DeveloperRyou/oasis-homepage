@@ -1,4 +1,5 @@
 import { Image } from "react-bootstrap";
+import upbit from "../../images/upbit.png"
 
 function AboutSupport() {
 	return (
@@ -8,7 +9,7 @@ function AboutSupport() {
 		  </div>
       <div className="d-flex justify-content-around pt-4">
         <div className="text-center">
-          <Image src="/upbit.png" className="rounded-4" />
+          <Image src={upbit} className="rounded-4" />
           <p className="mt-3 fs-4 fw-normal"> 업비트 </p>
         </div>
       </div>

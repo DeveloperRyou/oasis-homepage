@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import { faTwitter, faTelegram, faDiscord } from "@fortawesome/free-brands-svg-icons";
+import logo from '../images/logo.png';
 
 function Footer() {
   return (
@@ -22,7 +23,7 @@ function Footer() {
         <Col xs={12} lg={6} className="my-4 my-lg-0">
           <Row className="justify-content-center">
             <Col xs={3} className='px-0'>
-              <Image fluid src='/logo.png' className='footer-logo'></Image>
+              <Image fluid src={logo} className='footer-logo'></Image>
             </Col>
           </Row>
         </Col>
