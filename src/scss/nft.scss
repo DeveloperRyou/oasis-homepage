@@ -1,0 +1,44 @@
+@import "./default.scss";
+
+.nftImage {
+  img {
+    border-radius: $border-radius;
+  }
+}
+
+.roadmap {
+  p {margin: 0;}
+  .text-bar {
+    &-1 { color: $gradient-200; }
+    &-2 { color: $gradient-300; }
+    &-3 { color: $gradient-400; }
+    &-4 { color: $gradient-500; }
+    &-5 { color: $gradient-600; }
+  }
+  padding: 0;
+  .bar{
+    border-radius: 32px;
+    width: 12px;
+    background: linear-gradient(to bottom, $gradient-100 0%, $gradient-600 100%);
+    margin-bottom: -0.5rem;
+  }
+  .line{
+    height: 0.5px;
+    width: 230px;
+    &-1, &-2 { background-color: $gradient-200; }
+    &-3, &-4 { background-color: $gradient-300; }
+    &-5, &-6 { background-color: $gradient-400; }
+    &-7, &-8 { background-color: $gradient-500; }
+    &-9, &-10 { background-color: $gradient-600; }
+    &-1 {width: 10%;}
+    &-2 {width: 20%;}
+    &-3 {width: 30%;}
+    &-4 {width: 40%;}
+    &-5 {width: 50%;}
+    &-6 {width: 60%;}
+    &-7 {width: 70%;}
+    &-8 {width: 80%;}
+    &-9 {width: 90%;}
+    &-10 {width: 100%;}
+  }
+}

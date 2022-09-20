@@ -1,0 +1,68 @@
+@import "./_variables.scss";
+
+.text {
+  &-white { color: $white; * {color: $white;} }
+  &-black { color: $white; * {color: $white;} }
+  &-gray { color: $white; * {color: $white;} }
+  &-blue-100 { color: $blue-100; * {color: $blue-100; } }
+  &-blue-200 { color: $blue-200; * {color: $blue-200; } }
+  &-blue-300 { color: $blue-300; * {color: $blue-300; } }
+  &-p { color: $common-p; * {color: $common-p; } }
+}
+
+.bg {
+  &-white { background-color: $white; }
+  &-black { background-color: $black; }
+  &-gray { background-color: $gray; }
+  &-blue-100 { background-color: $blue-100; }
+  &-blue-200 { background-color: $blue-200; }
+  &-blue-300 { background-color: $blue-300; }
+}
+
+.m {
+  &t {
+    &-6 { margin-top: $space-6; }
+  }
+  &b {
+    &-6 { margin-bottom: $space-6; }
+  }
+  &s {
+    &-6 { margin-left: $space-6; }
+  }
+  &e {
+    &-6 { margin-right: $space-6; }
+  }
+  &y {
+    &-6 { margin-bottom: $space-6; margin-top: $space-6; }
+  }
+  &x {
+    &-6 { margin-left: $space-6; margin-right: $space-6; }
+  }
+  &-6 { margin: $space-6; }
+}
+
+.p {
+  &t {
+    &-6 { padding-top: $space-6; }
+  }
+  &b {
+    &-6 { padding-bottom: $space-6; }
+  }
+  &s {
+    &-6 { padding-left: $space-6; }
+  }
+  &e {
+    &-6 { padding-right: $space-6; }
+  }
+  &y {
+    &-6 { padding-bottom: $space-6; padding-top: $space-6; }
+  }
+  &x {
+    &-6 { padding-left: $space-6; padding-right: $space-6; }
+  }
+  &-6 { padding: $space-6; }
+}
+
+.fw-medium {
+  font-weight: 500 !important;
+}

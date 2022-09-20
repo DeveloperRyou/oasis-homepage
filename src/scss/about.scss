@@ -1,0 +1,37 @@
+@import "./default.scss";
+
+.about {
+  .mookup {
+    position: relative;
+    z-index: 0;
+    img {
+      transition: .3s;
+      border-radius: $border-radius;
+      opacity: 0.4;
+    }
+    .description {
+      transition: .3s;
+      position: absolute;
+      margin: 1rem;
+      width: calc(100% - 2rem);
+      height: calc(100% - 2rem);
+      top: 0;
+      left: 0;
+      color: $white;
+      border: 1px solid white;
+      div {
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    }
+    &:hover {
+      img {opacity: 0.9;}
+      .description {display: none;}
+    }
+  }
+}

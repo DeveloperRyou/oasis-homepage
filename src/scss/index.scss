@@ -1,0 +1,69 @@
+@import "./default.scss";
+
+html {
+  background-color: $background-color;
+}
+
+body {
+  margin: 0;
+  font-family: Pretendard, sans-serif;
+  background-color: $background-color;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+hr {
+  margin: 3rem -0.5rem;
+  border: 0;
+  opacity: 1;
+  height: 1.5px;
+  background-color: $gray-hr;
+}
+
+ul.oasis-ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    position: relative;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    &::before {
+      content: "";
+      background: $blue-100;
+      height: 5px;
+      width: 5px;
+      position: absolute;
+      top: 0.58rem;
+      left: 0;
+    }
+  } 
+}
+
+ol.oasis-ol {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: auto;
+    position: relative;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+    min-width: 280px;
+    &::marker {
+      color: inherit;
+      font-weight: 300;
+    }
+  } 
+}
+
+footer {
+  height: 150px;
+}
+
+p {
+  color: $common-p;
+  font-weight: 300;
+}

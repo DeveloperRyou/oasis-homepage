@@ -1,0 +1,55 @@
+@import "./default.scss";
+
+.faq {
+  .nav-item {
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid $common-p;
+    transition: .3s;
+    p {transition: .3s;}
+    &.active, &:hover {
+      p { font-weight: 600; color: $blue-300;}
+    }
+    &.active {
+      border-bottom: 5px solid $blue-300;
+    }
+    padding: 0 1rem;
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+  .row-item {
+    transition: .3s;
+    cursor: pointer;
+    &[aria-expanded="true"] {
+      .title {
+        background-color: $indigo-100; 
+        img {
+          transform: rotate( 180deg );
+          transition-property: all;
+          transition-duration: .3s;
+        }
+      }
+    }
+    .title {
+      background-color: $indigo-200;
+      height: 80px;
+      transition: .3s;
+      &:hover {
+        background-color: $indigo-100;
+      }
+      img {
+        transform: rotate( 0deg );
+        transition-property: all;
+        transition-duration: .3s;
+      }
+    }
+    .content {
+      background-color: $indigo-100;
+    }
+  }
+}
