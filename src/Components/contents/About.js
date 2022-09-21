@@ -8,7 +8,7 @@ import { Fade } from "react-awesome-reveal";
 function About() {
 	return (
     <div>
-      <Fade triggerOnce direction='up' delay={800}>
+      <Fade triggerOnce direction='up'>
         <AboutOasis />
       </Fade>
       <Fade triggerOnce direction='up'>

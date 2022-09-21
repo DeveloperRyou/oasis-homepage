@@ -32,8 +32,8 @@ function Header() {
   }, [offset]);
 
   return (
-    <Navbar className={"py-4 px-3 px-md-0 "+bgClass} expand="md" variant="dark" fixed="top">
-      <Container className='h-100 px-0'>
+    <Navbar className={bgClass} expand="md" variant="dark" fixed="top">
+      <Container fluid className='h-100'>
         <Fade triggerOnce direction='down' duration={1500}>
           <LinkScroll spy to={"app"} className="nav-brand nav-link h-100">
             <Image fluid src={title}></Image>

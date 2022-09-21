@@ -1,5 +1,23 @@
 @import "./default.scss";
 
+@media (max-width: 991px) {
+  :root {
+    font-size: 28px;
+  }
+  .app, .app>nav>div{
+    padding: 0;
+  }
+  .app>.content{
+    padding: 0 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .app>.content, .app>nav {
+    padding: 3rem;
+  }
+}
+
 html {
   background-color: $background-color;
 }
@@ -19,7 +37,7 @@ hr {
   margin: 3rem -0.5rem;
   border: 0;
   opacity: 1;
-  height: 1.5px;
+  height: 2px;
   background-color: $gray-hr;
 }
 

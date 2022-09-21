@@ -14,17 +14,17 @@ import data from './data';
 
 function App() {
   return (
-    <Container fluid className='app px-3 px-md-0'>
+    <Container fluid className='app'>
       <Contact />
       <Header />
-      <Container className='content px-0'>
+      <Container fluid className='content'>
         <div className='oasis py-6'>
-          <Fade triggerOnce direction='up' delay={400}>
+          <Fade triggerOnce direction='up'>
             <Oasis />
           </Fade>
         </div>
 
-        <Fade triggerOnce direction='up' delay={700} duration={1500}>
+        <Fade triggerOnce direction='up' delay={300} duration={1500}>
           <hr />
         </Fade>
 

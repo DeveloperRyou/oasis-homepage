@@ -7,16 +7,16 @@ import nft4 from '../../images/nft4.png';
 function NFTImage() {
   return (
     <Row className='nftImage pt-3'>
-      <Col md={3} xs={6} className="d-flex justify-content-center p-3">
+      <Col lg={3} md={6} className="d-flex justify-content-center p-3">
         <Image fluid src={nft1} />
       </Col>
-      <Col md={3} xs={6} className="d-flex justify-content-center p-3">
+      <Col lg={3} md={6} className="d-flex justify-content-center p-3">
         <Image fluid src={nft2} />
       </Col>
-      <Col md={3} xs={6} className="d-flex justify-content-center p-3">
+      <Col lg={3} md={6} className="d-flex justify-content-center p-3">
         <Image fluid src={nft3} />
       </Col>
-      <Col md={3} xs={6} className="d-flex justify-content-center p-3">
+      <Col lg={3} md={6} className="d-flex justify-content-center p-3">
         <Image fluid src={nft4} />
       </Col>
     </Row>

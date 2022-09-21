@@ -27,7 +27,7 @@ function FAQ(props) {
       <div className="text-center">
         <p className="fs-1 text-blue-200 fw-medium">FAQ</p>
       </div>
-      <div className="mt-5 mx-md-5">
+      <div className="mt-5 mx-lg-5">
         <div className="d-flex fs-5 fw-medium">
           <div onClick={() => {activateMenu('common')}} className={'nav-item '+(menu==='common'?'active':'')}>
             <p> 일반 </p>
