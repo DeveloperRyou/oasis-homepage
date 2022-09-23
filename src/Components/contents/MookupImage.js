@@ -5,7 +5,7 @@ function MookupImage(props) {
     <div className="mookup">
       <Image fluid src={props.src}/>
       <div className="description">
-        <div className="fs-5">{props.description}</div>
+        <div className="fs-5" dangerouslySetInnerHTML={{__html:props.description}}></div>
       </div>
     </div>
   ); 

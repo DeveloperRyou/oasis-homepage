@@ -1,9 +1,7 @@
 @import "./default.scss";
 
 @media (max-width: 991px) {
-  :root {
-    font-size: 28px;
-  }
+  html {font-size: 14px;}
   .app, .app>nav>div{
     padding: 0;
   }
