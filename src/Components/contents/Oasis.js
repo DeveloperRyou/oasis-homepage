@@ -1,6 +1,12 @@
 import ContentImage from "./ContentImage";
 import oasis from "../../images/Oasis.png"
 function Oasis() {
+  const download = ()=>{
+    window.location.href = "https://drive.google.com/u/0/uc?id=1X8j45CHdfxWh2KkOLlQRFNUmKs0oHzdB&export=download&confirm=t&uuid=a6ba4bf1-aa34-4d73-ba95-f93516d9e948"
+  }
+  const manual = ()=>{
+    alert("매뉴얼은 준비중입니다.");
+  }
   return (
     <div className="oasis">
       <ContentImage src={oasis} className="text-center text-sm-start">
@@ -10,8 +16,8 @@ function Oasis() {
         </div>
         <p className="fs-5">Search for the vein of money</p>
         <div className="d-flex justify-content-between pt-3">
-          <button className="oasis-btn w-100 me-2 me-lg-3" type="button">다운로드</button>
-          <button className="oasis-btn w-100 ms-2 ms-lg-3" type="button">설치 매뉴얼</button>
+          <button className="oasis-btn w-100 me-2 me-lg-3" type="button" onClick={download}>프로토타입 다운로드</button>
+          <button className="oasis-btn w-100 ms-2 ms-lg-3" type="button" onClick={manual}>설치 매뉴얼</button>
         </div>
       </ContentImage>
     </div>
