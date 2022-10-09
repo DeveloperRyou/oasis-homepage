@@ -12,7 +12,7 @@ function NFTBuy() {
         </p>
       </Col>
       <Col lg={{span:3, offset:1}} xs={12} className="m-auto text-center">
-        <a href="https://opensea.io/collection/oasisbot" target='_blank' rel="noopener noreferrer">
+        <a href="https://opensea.io/collection/oasis-bot" target='_blank' rel="noopener noreferrer">
           <button className="buy-btn" type="button">BUY AN OASIS NFT <br/> ON OPENSEA</button>
         </a>
       </Col>
