@@ -13,7 +13,7 @@ const roadmap = [
 	},
 	{
 		title: "30% : OASIS 법인 설립",
-		content: "프로토 타입의 Q&A를 커뮤니티를 통해 진행합니다."
+		content: "OASIS BOT COMPANY의 법인을 설립합니다."
 	},
 	{
 		title: "40% : OASIS BOT Beta 공개",
