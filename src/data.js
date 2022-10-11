@@ -21,7 +21,7 @@ const roadmap = [
 	},
 	{
 		title: "50% : OASIS BOT Basic 공개",
-		content: "OASIS BOT - Basic 공개 및 실용화합니다. NFT 홀더는 오픈 기념 6개월간 무료로 이용 가능하며, 5만 Point (50만원 상당 혜택)를 제공합니다."
+		content: "OASIS BOT - Basic을 공개 및 실용화합니다. 오픈 기념 6개월간 무료로 이용 가능하며, NFT 홀더들에게 5만 point(50만원 상당 혜택)를 제공합니다."
 	},
 	{
 		title: "60% : 수수료 혜택",
